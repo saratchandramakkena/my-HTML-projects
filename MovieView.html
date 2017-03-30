@@ -40,11 +40,23 @@
             display: inline;
             color: #F5B041;
         }
+        
+        .tablinks {
+            margin: 100px;
+            color: red;
+            font-size: x-large;
+        }
+        
+        .moviecontext {
+            display: inline;
+            color: black;
+        }
     </style>
 
 </head>
 
 <body>
+    <div style= "background-color:darkgrey;white:padding:20px;">
     <div>
         <h1 id="title">Tupaki</h1><span id="extension">.com</span>
     </div>
@@ -59,14 +71,37 @@
     <div>
         <h1 id="Menu">Categories</h1>
     </div>
-    <div>
-        <h1 id <div>
-            <h3>Tollywood</h3>
-            <ul>
-                <li>Actors</li>
-                <li>Directors</li>
-                <li>Producers</li>
-            </ul>
+    <div class="tab">
+        <button class="tablinks" onclick="openIndustry(film, 'Tollywood')">Tollywood</button>
+        <button class="tablinks" onclick="openIndustry(film, 'Bollywood')">Bollywood</button>
+        <button class="tablinks" onclick="openIndustry(film, 'Kollywood')">Kollywood</button>
+    </div>
+
+    <div id="Tollywood" class="moviecontext">
+        <h3>Tollywood</h3>
+        <p>Actor.</p>
+        <p>Director.</p>
+        <p>Music Director.</p>
+        <p>Producer.</p>
+    </div>
+
+    <div id="Bollywood" class="moviecontext">
+        <h3>Bollywood</h3>
+        <p>Box office.</p>
+        <p>Overseas.</p>
+        <p>Awards.</p>
+        <p>Collections.</p>
+    </div>
+
+    <div id="Kollywood" class="moviecontext">
+        <h3>Kollywood</h3>
+        <p>Acting.</p>
+        <p>Controversis.</p>
+        <p>Regional awards.</p>
+        <p>Language.</p>
+    </div>
+
+    </ul>
     </div>
 
     </div>
