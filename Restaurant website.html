@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Indian food, Veg and Non-Veg
+    </title>
+    <style>
+        #first {
+            background:black;
+            border-bottom-color: blue;
+        }
+        
+        #title {
+            display: inline;
+            color: orangered;
+        }
+        
+        #extension {
+            display: inline;
+            color: darkred;
+        }
+        
+        .foodmenu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: red;
+        }
+        
+        .menuItem {
+            margin-right: 15px;
+            color: black;
+            float: left;
+        }
+         #Menu {
+            display: inline;
+            color: firebrick;
+        }
+        
+        .tablinks {
+            margin: 50px;
+            color: blue;
+            font-size: x-large;
+        }
+        
+        .fooditem {
+            display: inline;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+      <div style= "background-color:darkgrey;white:padding:20px;">
+         
+        <div>
+            <h1 id="title">Springz</h1><span id="extension">-Spicy in Indian food</span>
+        </div>
+        <div id="first">
+            <ul class="foodmenu">
+                <li class="menuItem">North Indian</li>
+                <li class="menuItem">Punjabi</li>
+                <li class="menuItem">Rajsthani</li>
+                <li class="menuItem">South Indian</li>
+            </ul>
+             <img src="images" alt="Dum Biryani" width="100cm" >
+             <img src="food" alt="New item" width="100cm">
+             <img src="download" alt="Non veg" width="200cm">
+             
+
+        </div>
+        <div>
+        <h1 id="Menu">Foodies</h1>
+    </div>
+    <div class="tab">
+        <button class="tablinks" onclick="openItem(food, 'Veg')">veg</button>
+        <button class="tablinks" onclick="openItem(food, 'non-veg')">non-veg</button>
+        <button class="tablinks" onclick="openItem(food, 'Desserts')">Desserts</button>
+        <button class="tablinks" onclick="openItem(food, 'Starters')">Starters</button>
+        <button class="tablinks" onclick="openItem(food, 'MilkShakes')">MilkShakes</button>
+    </div>
+
+    <div id="Veg" class="fooditem">
+        <h3>Veg</h3>
+        <p>Dal.</p>
+        <p>Paneer.</p>
+        <p>Kaju-Tamato.</p>
+        <p>Naan.</p>
+    </div>
+
+    <div id="non-veg" class="fooditem">
+        <h3>non-veg</h3>
+        <p>Chicken Tandoori.</p>
+        <p>Chicken Tikka.</p>
+        <p>Chicken Dum Biryani.</p>
+        <p>Shrimp Biryani.</p>
+    </div>
+
+    <div id="Desserts" class="fooditem">
+        <h3>Desserts</h3>
+        <p>Black forest.</p>
+        <p>Fudge cake.</p>
+        <p>Vanilla pastry.</p>
+        <p>Dark chocolate pastry.</p>
+    </div>
+<div id="Starters" class="fooditem">
+        <h3>Starters</h3>
+        <p>Chicken lollipo.</p>
+        <p>Chicken rolls.</p>
+        <p>Spring rolls.</p>
+        <p>Orange rolls.</p>
+    </div>
+    <div id="MilkShakes" class="fooditem">
+        <h3>MilkShakes</h3>
+        <p>Vanilla shake.</p>
+        <p>Blue berry shake.</p>
+        <p>Raspberry shake.</p>
+        <p>Mixed shake.</p>
+    </div>
+    </ul>
+    </div>
+
+    </div>
+</body>
+
+</html>
