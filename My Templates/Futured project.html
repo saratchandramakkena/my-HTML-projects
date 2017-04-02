@@ -3,13 +3,14 @@
 
 <head>
 
+
     <title>
         Gaming
 
     </title>
     <style>
-    body {
-            background-image: url(https://i.ytimg.com/vi/RQvHgJ2lbDA/maxresdefault.jpg);
+        body {
+            background-image: url(http://cdn1us.denofgeek.com/sites/denofgeekus/files/2013_god_of_war_ascension-wide.jpg);
             background-size: 100%;
         }
         
@@ -49,65 +50,215 @@
         color: blueviolet;
         font-style: italic;
     }
-    table, th, td {
-    border: 1px solid white;
-    border-collapse: collapse;
-    color: gray;
-}
+    table,
+    th,
+    td {
+        border: 1px solid white;
+        border-collapse: collapse;
+        color: cadetblue;
+    }
+    div {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: relative;
+        -webkit-animation-name: King;
+        /* Safari 4.0 - 8.0 */
+        
+        -webkit-animation-duration: 4s;
+        /* Safari 4.0 - 8.0 */
+        
+        animation-name: King;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes King {
+        0% {
+            background-color: red;
+            left: 0px;
+            top: 0px;
+        }
+        
+        25% {
+            background-color: yellow;
+            left: 200px;
+            top: 0px;
+        }
+        
+        50% {
+            background-color: blue;
+            left: 200px;
+            top: 200px;
+        }
+        
+        75% {
+            background-color: green;
+            left: 0px;
+            top: 200px;
+        }
+        
+        100% {
+            background-color: red;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    /* Standard syntax */
+    @keyframes King {
+        0% {
+            background-color: red;
+            left: 0px;
+            top: 0px;
+        }
+        
+        25% {
+            background-color: yellow;
+            left: 200px;
+            top: 0px;
+        }
+        
+        50% {
+            background-color: blue;
+            left: 200px;
+            top: 200px;
+        }
+        
+        75% {
+            background-color: green;
+            left: 0px;
+            top: 200px;
+        }
+        
+        100% {
+            background-color: red;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    div {
+        width: 100px;
+        height: 50px;
+        background-color: red;
+        font-weight: bold;
+        position: relative;
+        -webkit-animation: mymove 5s infinite;
+        /* Safari 4.0 - 8.0 */
+        
+        animation: mymove 5s infinite;
+    }
+    /* Safari 4.0 - 8.0 */
+    #div1 {
+        -webkit-animation-timing-function: linear;
+    }
+    #div2 {
+        -webkit-animation-timing-function: ease;
+    }
+    #div3 {
+        -webkit-animation-timing-function: ease-in;
+    }
+    #div4 {
+        -webkit-animation-timing-function: ease-out;
+    }
+    #div5 {
+        -webkit-animation-timing-function: ease-in-out;
+    }
+    /* Standard syntax */
+    #div1 {
+        animation-timing-function: linear;
+    }
+    #div2 {
+        animation-timing-function: ease;
+    }
+    #div3 {
+        animation-timing-function: ease-in;
+    }
+    #div4 {
+        animation-timing-function: ease-out;
+    }
+    #div5 {
+        animation-timing-function: ease-in-out;
+    }
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes mymove {
+        from {
+            left: 0px;
+        }
+        
+        to {
+            left: 300px;
+        }
+    }
+    /* Standard syntax */
+    @keyframes mymove {
+        from {
+            left: 0px;
+        }
+        
+        to {
+            left: 300px;
+        }
     </style>
-
-    <body>
-
-        <div style="background-color:black;white:padding:20px;">
-
-            <div>
-                <h1 id="title">SONY </h1><span id=extension>.com</span>
-            </div>
-            <div id="Quote">
-                <h1> Into the live gaming world </h1>
-            </div>
-
-            <div id="Menu">
-                <ul class="GamingMenu">
-                    <img src="download" alt="Play Station" style="width:50px;height:50px;">
-                    <li class="GamingSub">Menu</li>
-                    <li class="GamingSub">Catogary</li>
-                    <li class="GamingSub">Versions</li>
-                    <li class="GamingSub">Entertainment</li>
-                    <li class="GamingSub">New Games</li>
-                    <li class="GamingSub">Contact</li>
-                </ul>
-            </div>
-            <div>
-                <div>
-                    <table style="width:100%">
-                        <tr>
-                            <th>Name of the Game</th>
-                            <th>Latest version</th>
-                            <th>Release date</th>
-                        </tr>
-                        <tr>
-                            <td>God of War</td>
-                            <td>v3.0</td>
-                            <td>03/11/2017</td>
-                        </tr>
-                        <tr>
-                            <td>Need for speed</td>
-                            <td>Most wanted v2.0</td>
-                            <td>01/01/2017</td>
-                        </tr>
-                        <tr>
-                            <td>Brothers in arms</td>
-                            <td>v2,1</td>
-                            <td>02/28/2017</td>
-                        </tr>
-                    </table>
-                </div>
-                <
-
-
-    </body>
-
 </head>
+
+<body>
+
+    <div style="background-color:black;white:padding:20px;">
+
+        <div>
+            <h1 id="title">SONY </h1><span id=extension>.com</span>
+        </div>
+        <div id="Quote">
+            <h1> Into the live gaming world </h1>
+        </div>
+
+        <div id="Menu">
+            <ul class="GamingMenu">
+                <img src="download" alt="Play Station" style="width:50px;height:50px;">
+                <li class="GamingSub">Menu</li>
+                <li class="GamingSub">Catogary</li>
+                <li class="GamingSub">Versions</li>
+                <li class="GamingSub">Entertainment</li>
+                <li class="GamingSub">New Games</li>
+                <li class="GamingSub">Contact</li>
+            </ul>
+        </div>
+        <div>
+            <div>
+                <table style="width:100%">
+                    <tr>
+                        <th>Name of the Game</th>
+                        <th>Latest version</th>
+                        <th>Release date</th>
+                    </tr>
+                    <tr>
+                        <td>God of War</td>
+                        <td>v3.0</td>
+                        <td>03/11/2017</td>
+                    </tr>
+                    <tr>
+                        <td>Need for speed</td>
+                        <td>Most wanted v2.0</td>
+                        <td>01/01/2017</td>
+                    </tr>
+                    <tr>
+                        <td>Brothers in arms</td>
+                        <td>v2,1</td>
+                        <td>02/28/2017</td>
+                    </tr>
+                </table>
+            </div>
+            <p><b>God of War</b>Game that changes the world</p>
+
+            <div></div>
+            <div id="div1">linear</div>
+            <div id="div2">ease</div>
+            <div id="div3">ease-in</div>
+            <div id="div4">ease-out</div>
+            <div id="div5">ease-in-out</div>
+        
+
+
+</body>
 
 </html>
