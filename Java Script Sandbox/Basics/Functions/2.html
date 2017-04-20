@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function myFunction() {
+    document.getElementById("Option2").value = document.getElementById("Option1").value;
+}
+    </script>
+</head>
+
+<body>
+
+    Option1: <input type="text" id="Option1" value="Hey there you copied">
+    Option2: <input type="text" id="Option2">
+
+    <button onclick="myFunction()">Copy button</button>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+         function myFunction() {
+   var x = document.createElement("BUTTON");
+    var y = document.createTextNode("clickedherebuddy");
+    x.appendChild(y);
+    document.body.appendChild(x);
+     var z="Hey you have clicked clickhere";
+    document.getElementById("demo").innerHTML = z;
+}
+        
+    </script>
+</head>
+
+<body>
+    <input type="text">
+        <button onclick="myFunction()">clickehere</button>
+        <h1 id="demo"></h1>
+<select>
+  <option value="BMW">BMW</option>
+  <option value="Audi">Audi</option>
+  <option value="Ferrari">Ferrari</option>
+  <option value="Range Rover">Range Rover</option>
+</select>
+    
+</body>
+
+</html>
